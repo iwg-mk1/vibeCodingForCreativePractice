@@ -15,7 +15,8 @@ Vibe coding also generally fails to make well structured code. It will put all C
 
 ## The labor is no longer fun
 
-There’s a certain strangeness I feel around vibe coding. While a lot of creative practices can have boring, unenjoyable elements (I don’t know anyone who just wants to stretch canvas all day) we tend to make paintings because we love painting, not because we love having made paintings. The structure is reversed with vibe coding. I don’t vibe code because I love spamming requests to a large language model, I do it because I want to make interactive systems more quickly. While I don’t enjoy some aspects of coding, especially when problems are highly specified in a non-creative setting, I actually find it fun usually. I’m sure this feeling has been true for many people throughout history as we automate the fun out of everything.
+There’s a certain strangeness I feel around vibe coding. While a lot of creative practices can have boring, unenjoyable elements (I don’t know anyone who just wants to stretch canvas all day) we tend to make paintings because we love painting, not because we love having made paintings. The structure is reversed with vibe coding. I don’t vibe code because I love spamming requests to a large language model, I do it because I want to make interactive systems more quickly. While I don’t enjoy some aspects of coding, especially when problems are highly specified in a non-creative setting, I actually find it fun usually. 
+I’m sure this rocky relationship with a new way of making has been true for makers throughout history as we automate the fun out of everything.
 I think it’s important to liberate ourselves a bit from what the corporate approach to coding: make the bare minimum finished product as quickly and cheaply as possible. But what if we think of coding more like craft, like knitting or weaving? Use vibe coding if you want to do something quickly, but also allow yourself to enjoy your craft.
 
 
