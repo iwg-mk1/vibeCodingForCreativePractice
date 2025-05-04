@@ -58,6 +58,8 @@ One thing I learned was to make sure I was really reading the code to make sure 
 
 I wanted to make a video jockeying tool for another class and very lazily vibe coded it. There was a glitch in the playback that was actually kind of interesting so I kept it. Overall the impression I had from debugging the program was that it was very unstable, but that instability was interesting to me.
 
+![gif of video jockeying](/img/img1.gif)
+
 ### Talk To God
 
 I was re-visiting my Bible project and made a program where you say something, it clones your voice and uses whisper to transcribe it, then reads that transcript using the voice clone. This was to be a proof of concept for a more conversational mode of engaging with my Bible model and by extension God. A lot of this worked honestly scarily well. However, the one shot voice cloning that I could access with my hardware locally just was not good enough to make a good facsimile of someone’s voice.
