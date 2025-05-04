@@ -26,6 +26,8 @@ Mess around with different models. They will continue to change. I found the bes
 
 Arguably the most useful aspect of vibe coding is in the domain knowledge gathering stage. I wanted to make a piece of video jockeying software. I had no idea what libraries or frameworks were even available to do this. Asking questions like “how might I do xyz” and doing a lot of research early on into the different suggested methods is incredibly important. Google searching should also be used during this stage to actually check documentation but sometimes what you want to do is kind of strange and the models can propose some harder to find options more quickly.
 
+After 250 lines of code, vibe coding projects start to get bloated and making edits that don't break everything gets harder. I would recommend chunking things into seperate files only give the model the structure of the working parts, much like how you might actually write good production code.
+
 While I can honestly say I have been too lazy to do this on several occasions, double check that any libraries you are downloading are real and not slopsquatted. This doesn’t take too long and you might find some documentation that might be helpful to you later.
 
 ## You still need to know how to do some stuff
@@ -43,7 +45,7 @@ I think anyone who wants to do large vibe coding projects should know how to cod
 
 I trained my own small GPT model on the Bible using Andrej Karpathy’s nanoGPT library: https://github.com/karpathy/nanoGPT. Less vibe coding here and more using Gemini to parse error messages, which was very useful. This project really helped me get fast at setting up environments and gave me a lot of confidence to do other things.
 
-### Corpus Convos:
+### Corpus Convos
 
 For this project I was trying to see if I could construct conversations, scripts, or dialogues between corpora by placing similar sentences next to each other. First I tried using SpaCy but then moved to the more apt BERT for getting sentence similarity. Transformer models like BERT actually work really well for this. The most successful way I arranged the sentences was just by starting with one sentence, then finding a unique sentence most similar to that and repeating with subsequently chained sentences. I also tried appending the sentence to come after the most similar sentence but that did not yield good results.
 
