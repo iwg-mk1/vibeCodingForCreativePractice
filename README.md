@@ -45,6 +45,8 @@ I think anyone who wants to do large vibe coding projects should know how to cod
 
 I trained my own small GPT model on the Bible using Andrej Karpathy’s nanoGPT library: https://github.com/karpathy/nanoGPT. Less vibe coding here and more using Gemini to parse error messages, which was very useful. This project really helped me get fast at setting up environments and gave me a lot of confidence to do other things.
 
+![gif of video jockeying](/img/img3.png)
+
 ### Corpus Convos
 
 For this project I was trying to see if I could construct conversations, scripts, or dialogues between corpora by placing similar sentences next to each other. First I tried using SpaCy but then moved to the more apt BERT for getting sentence similarity. Transformer models like BERT actually work really well for this. The most successful way I arranged the sentences was just by starting with one sentence, then finding a unique sentence most similar to that and repeating with subsequently chained sentences. I also tried appending the sentence to come after the most similar sentence but that did not yield good results.
@@ -52,6 +54,8 @@ For this project I was trying to see if I could construct conversations, scripts
 This, like the previous project, was a good application for vibe coding since my domain knowledge of computationally quantifying semantic similarity was low going into this.
 
 One thing I learned was to make sure I was really reading the code to make sure it was actually running efficiently. The slop code was initially running sequentially and re-calling a super heavy function over and over again that only needed to be called once. Thankfully prompting it to run in parallel and only call that function once did work.
+
+![gif of video jockeying](/img/img4.png)
 
 
 ### Video jockeying tool
@@ -74,3 +78,5 @@ I revisited the corpus conversations. I tried a few more methods to get better c
 
 The main point of frustration I found was that after about 250 lines of code, new edits continually break things and start adding inefficiencies. I think a better method would be to chunk all the code into separate files and only give the model the structure of the working parts, much like how you might actually write good production code.
 
+
+![gif of video jockeying](/img/img2.gif)
